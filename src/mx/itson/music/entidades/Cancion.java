@@ -18,11 +18,11 @@ public class Cancion {
         this.nombre = nombre;
     }
 
-    public int getDuracion() {
+    public String getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(int duracion) {
+    public void setDuracion(String duracion) {
         this.duracion = duracion;
     }
 
@@ -35,6 +35,6 @@ public class Cancion {
     }
     
     private String nombre;
-    private int duracion;
+    private String duracion;
     private int orden;
 }
